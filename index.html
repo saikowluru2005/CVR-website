@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            background-color: #D6E8EE;
+        }
+        .navigation{
+            padding: 5px;
+        }
+        .logo_name{
+            display: flex;
+            flex-direction: column;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 25px 0px 25px;
+
+        }
+        .name{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            font-size: xx-large;
+            font-weight: 600;
+        }
+        .In{
+            font-size:30px;
+            font-weight: 100;
+            margin: auto;
+        }
+        .In span{
+            color: #001b48;
+            font-weight: 500;
+            font-size:40px;
+        }
+        marquee{
+            font-size: 25px;
+            background-color: #97CADB;
+            padding:0.5px;
+        }
+        marquee:hover {
+            animation-play-state: paused;
+        }
+        marquee a{
+            background:none;
+            color:#001b48;
+            text-decoration: none;
+        }
+        .box{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border: solid 5px;
+            border-color:  #001b48;
+            height: 150px;
+            width: 150px;
+            border-radius: 20px;
+            margin: 5px;
+        }
+        .box:hover{
+            background-color: #001b48;
+            color: white;
+        }
+        .boxes{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .boxes a{
+            color: #001b48;
+            text-decoration: none;
+        }
+        .main{
+            padding: 20px;
+        }
+        footer{
+            
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+    <title>CVRCOE</title>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="navigation">
+            <div>
+                <div class="logo_name">
+                    <div class="logo">
+                        <img src="./logo1.png" alt="cvr" height="120px" width="120px">
+                    </div>
+                    <div class="name">
+                        CVR COLLEGE OF ENGINEERING
+                        <p class="In">In Pursuit of Excellence</p>
+                        <p class="In">( An Autonomous Institution, NAAC <span>'A'</span> Grade )</p>
+                    </div>
+                </div>
+                <marquee direction="right" height="35" loop="1" width="1555px" loop="1"><a href="#">Admissionss are open</a></marquee>
+                <div class="main">
+                <div class="boxes">
+                    <a href="./Important.html"><div class="box">Important Announcements</div></a>
+                    <a href="./about.html"><div class="box">About Us</div></a>
+                    <a href "#"><div class="box">Academics</div></a>
+                    <a href "#"><div class="box">Departments</div></a>
+                    <a href "#"><div class="box">Results</div></a>
+                </div>
+                <div class="boxes">
+                    <a href "#"><div class="box">Infrastructure</div></a>
+                    <a href "#"><div class="box">Placements</div></a>
+                    <a href "#"><div class="box">Alumni</div></a>
+                    <a href "#"><div class="box">Research</div></a>
+                    <a href "#"><div class="box">Contact Us</div></a>
+
+                </div>
+                </div>
+        </div>
+    </div>
+    <footer>Copyright © 2024 CVR College of Engineering, All Rights Reserved</footer>
+</body>
+</html>
